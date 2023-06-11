@@ -2,7 +2,7 @@ mat-card{
     text-align: center;
 }
 
-mat-form-field {
+.searchField {
     width: calc(100% - 20px);
     margin-bottom: 10px;
     margin-top: 10px; 

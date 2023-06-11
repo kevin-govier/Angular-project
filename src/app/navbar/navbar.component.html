@@ -1,8 +1,13 @@
 <mat-toolbar class="navbar">
     <div>Angular App</div>
     <div>
+        <a class = "tabs" routerLink="/bookSearch" routerLinkActive="active">Book Search</a>
         <a class = "tabs" routerLink="/collection" routerLinkActive="active">Collection</a>
         <a class = "tabs" routerLink="/ratings" routerLinkActive="active">Ratings</a>
         <a class = "tabs" routerLink="/readingList" routerLinkActive="active">Reading List</a>
+        <button mat-button routerLink="login">
+            <mat-icon>login</mat-icon>
+            Login
+        </button>
     </div>
 </mat-toolbar>
