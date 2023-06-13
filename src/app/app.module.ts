@@ -21,10 +21,10 @@ import { TabsComponent } from './tabs/tabs.component';
 import { CollectionComponent } from './collection/collection.component';
 import { RatingsComponent } from './ratings/ratings.component';
 import { ReadingListComponent } from './readingList/readingList.component';
-import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -37,9 +37,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     CollectionComponent,
     RatingsComponent,
     ReadingListComponent,
-    LandingComponent,
     LoginComponent,
-    SignUpComponent
+    SignUpComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

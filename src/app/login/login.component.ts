@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit{
     password: new FormControl('', Validators.required)
   });
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {}
 

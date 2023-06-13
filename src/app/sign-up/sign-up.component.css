@@ -1,0 +1,17 @@
+.sign-up-link {
+    font-size: 1.2rem;
+}
+
+.formContainer { /* login.components */
+    display: block;
+    max-width: 400px;
+    margin: auto;
+
+    background: #eceff1;
+    padding: 48px;
+    border-radius: 16px;
+}
+
+.formContainer mat-form-field { /* login.components */
+    width: 100%;
+}
